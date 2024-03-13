@@ -3,7 +3,7 @@ def print_hello_world():
 
 print_hello_world()
 
-def print_my_name():
-    print("Hi my name is X")
+def print_my_name(name):
+    print("Hi my name is {name}")
 
-print_my_name()
+print_my_name("X")
